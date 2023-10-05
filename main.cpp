@@ -22,7 +22,7 @@ int main()
 		i++;
 	}
 	cout << S << endl;
-		S = 0;
+	S = 0;
 	i = k;
 	do {
 		S += sin(1. * i) / (1 + cos(1. * i));

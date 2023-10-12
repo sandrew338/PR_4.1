@@ -12,8 +12,8 @@ int main()
 {
 	int k, N, i;
 	double S;
+	cout << "N = "; cin >> N
 	k = 1;
-	cout << "N = "; cin >> N;
 	S = 0;
 	i = k;
 	while (i <= N)
@@ -30,6 +30,7 @@ int main()
 	} while (i <= N);
 	cout << S << endl;
 	S = 0;
+	i = k;
 	for (i = k; i <= N; i++)
 	{
 		S += sin(1. * i) / (1 + cos(1. * i));

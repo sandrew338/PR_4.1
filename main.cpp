@@ -12,7 +12,7 @@ int main()
 {
 	int k, N, i;
 	double S;
-	cout << "k = "; cin >> k;
+	k = 1;
 	cout << "N = "; cin >> N;
 	S = 0;
 	i = k;
